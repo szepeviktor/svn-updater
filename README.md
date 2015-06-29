@@ -1,8 +1,8 @@
 <!---
 Converted from readme.txt by http://wpreadme2markdown.com/
-# WordPres Plugin SVN Updater
+# WordPress Plugin SVN Updater
 -->
-# WordPres Plugin SVN Updater
+# WordPress Plugin SVN Updater
 **Contributors:** szepe.viktor
   
 **Donate link:** https://szepe.net/wp-donate/
@@ -25,7 +25,7 @@ Install any WordPress.org plugin's trunk version from SVN.
 ## Description ##
 
 Have you ever needed to upgrade a plugin to it's latest (unreleased) version?
-You'll get a new action (Trunk) on the Plugins page.
+With SVN Updater you get a new action (Trunk) on the Plugins page.
 
 Development of this plugin is done [on GitHub](https://github.com/szepeviktor/svn-updater).
 Pull requests are welcome.
@@ -41,7 +41,7 @@ This section describes how to install the plugin and get it working.
 
 ### Should I use this plugin in production? ###
 
-No!
+No! Not without understanding its internals.
 
 ### How does this plugin work? ###
 
