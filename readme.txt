@@ -33,7 +33,10 @@ No! Not without understanding its internals.
 
 = How does this plugin work? =
 
-It adds a new action to the Plugins page and hooks plugin's package URL.
+It adds an action - which is similar to the Install button - to the Plugins page
+and hooks plugin's package URL. SVN Updater is actually not using SVN at all.
+WordPress.org provides a ZIP file of trunk version in form of
+https://downloads.wordpress.org/plugin/PLUGIN-NAME.zip
 
 == Changelog ==
 
