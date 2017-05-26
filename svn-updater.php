@@ -50,8 +50,9 @@ class O1_SVN_Updater {
 
         global $title, $parent_file, $submenu_file;
 
-        if ( ! current_user_can( 'update_plugins' ) )
+        if ( ! current_user_can( 'update_plugins' ) ) {
             wp_die( __( 'You do not have sufficient permissions to update plugins for this site.' ) );
+        }
 
         check_admin_referer( 'svn_update_plugin' );
 
